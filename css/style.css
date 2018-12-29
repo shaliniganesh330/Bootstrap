@@ -1,0 +1,14 @@
+/*.navbar navbar-inverse{
+float:left;
+background-color: brown;
+width: 100%;
+}*/
+html,body{
+    height:100%;
+}
+img {
+    max-width: 100%;
+}
+nav {
+    width:100%;
+}
