@@ -12,6 +12,19 @@ img {
 nav {
     width:100%;
 }
+#about{
+    margin-top:6px;
+    background: url("/home/user/Documents/vscode-assign/assignment 3/img/images (4).jpeg") center center no-repeat;
+    background-size: cover;
+ 
+ }
+ .about-text{
+ 
+    background: rgba(0,0,0,0);
+    color:black;
+    padding:1.875rem;
+    font-weight: bold;
+ }
 
 #bg3{background-color:#353535;}
 #bg3 .foot{padding-top: 15px;}
