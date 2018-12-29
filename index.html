@@ -13,6 +13,9 @@
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 
 
 </head>
@@ -152,6 +155,7 @@
         </div>
         </div>
     </section>
+    <!-- jumbotron with modal
     <div class="jumbotron">
             <h1 class="display-4">Hello, world!</h1>
             <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
@@ -159,6 +163,114 @@
             <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
             <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
           </div>
+          <div class="container">
+                <h2>Modal Example</h2>
+                 Trigger the modal with a butto
+                <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+              
+                 Modal 
+                <div class="modal fade" id="myModal" role="dialog">
+                  <div class="modal-dialog">
+                  
+                     Modal content
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Modal Header</h4>
+                      </div>
+                      <div class="modal-body">
+                        <p>Some text in the modal.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+                
+              </div> -->
+    <!-- footer section -->
+    <div class="container-fluid" id="bg3">
+            <footer class="container ">
+          <div class="row foot">
+        
+            <div id="foot1" class="col-md-3 col-sm-3">
+        
+              <h3>Useful Links</h3>
+             <h5 id="firstchild">
+              <span class="glyphicon glyphicon-chevron-right"></span><a href="#" class="text-muted"> <b>Contact Us</b></a></h5>
+             <h5><span class="glyphicon glyphicon-chevron-right"></span><a href="#" class="text-muted"> <b>About Us</b></a></h5>
+             <h5><span class="glyphicon glyphicon-chevron-right"></span><a href="#" class="text-muted"> <b>Terms & Conditions</b></a></h5>
+             <h5><span class="glyphicon glyphicon-chevron-right"></span><a href="#" class="text-muted"> <b>Private Policy</b></a></h5>
+            </div>
+        
+             <div id="foot2" class="col-md-3 col-sm-3">
+              <h3>Customer Services</h3>
+        
+        <h5 id="firstchild"><span class="glyphicon glyphicon-chevron-right"></span><a href="#" class="text-muted"> <b>Customer Support</b></a></h5>
+        <h5> <span class="glyphicon glyphicon-chevron-right"></span><a href="#" class="text-muted"> <b>Cancel Booking</b></a></h5>
+        <h5><span class="glyphicon glyphicon-chevron-right"></span><a href="#" class="text-muted"> <b>Cancelltion policy</b></a></h5>
+        <h5><span class="glyphicon glyphicon-chevron-right"></span><a href="#" class="text-muted"><b> Register</b></a></h5>
+        <h5 style="border-bottom:0px;"><span class="glyphicon glyphicon-chevron-right"></span><a href="#" class="text-muted"><b> Conatct Us</b></a></h5>
+             </div>
+        
+            <div id="foot3" class="col-md-3 col-sm-3">
+                <h3>Address</h3>
+                <h4 class="text-muted">123 ,Lorem Ipsum dummy Text<br>Freephone: 1 999 999 9999<br>Fax:1 999 999 9999<br>E-mail: xyz@domain.uk</h4>
+              </div>
+        
+        
+              <div id="foot4" class="col-md-3 col-sm-3">
+                  <h1>follow us</h1>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-google"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+               </div>   
+              
+        </div>
+        </footer>
+        </div>
+        <!-- Map with Modal -->
+        <div class="text-center">
+
+                <button type="button" class="btn btn-info" data-toggle="modal" data-target="#modalRegular">Regular map modal</button>
+
+         </div>
+         <!--Modal: Name-->
+<div class="modal fade" id="modalRegular" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+aria-hidden="true">
+<div class="modal-dialog modal-lg" role="document">
+
+  <!--Content-->
+  <div class="modal-content">
+
+    <!--Body-->
+    <div class="modal-body mb-0 p-0">
+
+      <!--Google map-->
+      <div id="map-container-google-16" class="z-depth-1-half map-container-9" style="height: 400px">
+        <iframe src="https://maps.google.com/maps?q=new%20delphi&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+
+    </div>
+
+    <!--Footer-->
+    <div class="modal-footer justify-content-center">
+
+      <button type="button" class="btn btn-info btn-md">Save location <i class="fas fa-map-marker-alt ml-1"></i></button>
+      <button type="button" class="btn btn-outline-info btn-md" data-dismiss="modal">Close <i class="fas fa-times ml-1"></i></button>
+    </div>
+
+  </div>
+  <!--/.Content-->
+
+</div>
+</div>
+
+              
 
 
 
