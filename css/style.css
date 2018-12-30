@@ -9,7 +9,7 @@ nav {
 }
 #about{
     margin-top:6px;
-    background: url("/home/user/Documents/vscode-assign/assignment 3/img/aboout.webp") center center no-repeat;
+    background: url("../img/aboout.webp") center center no-repeat;
     background-size: cover;
   }
  .about-text{
